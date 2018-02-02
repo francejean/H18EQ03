@@ -192,7 +192,7 @@
             this.button14.BackgroundImage = global::Prj_Hotel_Mille_Etoiles.Resource1.NewFileIcon3;
             this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button14.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(295, 89);
+            this.button14.Location = new System.Drawing.Point(430, 172);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(71, 71);
             this.button14.TabIndex = 13;
