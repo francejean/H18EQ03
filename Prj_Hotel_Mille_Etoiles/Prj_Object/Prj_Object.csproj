@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44403ECC-F214-49E8-9778-36D712C317BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Prj_Object</RootNamespace>
+    <AssemblyName>Prj_Object</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButtonChangeDiscard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonChangeDiscard.Designer.cs">
+      <DependentUpon>ButtonChangeDiscard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonGoPrevious.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonGoPrevious.Designer.cs">
+      <DependentUpon>ButtonGoPrevious.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonGoNext.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonGoNext.Designer.cs">
+      <DependentUpon>ButtonGoNext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonGoEnd.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonGoEnd.Designer.cs">
+      <DependentUpon>ButtonGoEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonGoBegin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonGoBegin.Designer.cs">
+      <DependentUpon>ButtonGoBegin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonChangeRevert.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonChangeRevert.Designer.cs">
+      <DependentUpon>ButtonChangeRevert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonModeConsultation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonModeConsultation.Designer.cs">
+      <DependentUpon>ButtonModeConsultation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonModeEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonModeEdit.Designer.cs">
+      <DependentUpon>ButtonModeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonFileEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonFileEdit.Designer.cs">
+      <DependentUpon>ButtonFileEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonFileDelete.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonFileDelete.Designer.cs">
+      <DependentUpon>ButtonFileDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonFileNew.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonFileNew.Designer.cs">
+      <DependentUpon>ButtonFileNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonQuit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonQuit.Designer.cs">
+      <DependentUpon>ButtonQuit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonSave.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonSave.Designer.cs">
+      <DependentUpon>ButtonSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabelInfo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LabelInfo.Designer.cs">
+      <DependentUpon>LabelInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabelTitle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LabelTitle.Designer.cs">
+      <DependentUpon>LabelTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListBox.Designer.cs">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown.Designer.cs">
+      <DependentUpon>NumericUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBox.Designer.cs">
+      <DependentUpon>TextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonText.Designer.cs">
+      <DependentUpon>ButtonText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\begin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\end.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancelIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CtrlZIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteFileIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteFileIcon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DiscardIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditFileIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditFileIcon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewFileIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewFileIcon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewFileIcon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QuitIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConsultModeIcon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
