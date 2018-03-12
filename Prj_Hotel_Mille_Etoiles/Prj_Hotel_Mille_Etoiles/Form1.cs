@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Prj_Object;
 
 namespace Prj_Hotel_Mille_Etoiles
 {
-    public partial class Form1 : Form
+    public partial class Form1 : BaseForm
     {
         public Form1()
         {

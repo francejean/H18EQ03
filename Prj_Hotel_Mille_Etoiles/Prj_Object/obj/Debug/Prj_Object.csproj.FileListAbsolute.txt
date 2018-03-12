@@ -16,3 +16,12 @@ C:\Users\Patrick\Desktop\H18EQ03\Prj_Hotel_Mille_Etoiles\Prj_Object\obj\Debug\Pr
 C:\Users\Patrick\Desktop\H18EQ03\Prj_Hotel_Mille_Etoiles\Prj_Object\bin\Debug\Prj_Object.dll.config
 C:\Users\Patrick\Desktop\H18EQ03\Prj_Hotel_Mille_Etoiles\Prj_Object\bin\Debug\Prj_Object.dll
 C:\Users\Patrick\Desktop\H18EQ03\Prj_Hotel_Mille_Etoiles\Prj_Object\obj\Debug\Prj_Object.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\hotel\Prj_Hotel_Mille_Etoiles\Prj_Object\obj\Debug\Prj_Object.Properties.Resources.resources
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\hotel\Prj_Hotel_Mille_Etoiles\Prj_Object\bin\Debug\Prj_Object.dll.config
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\hotel\Prj_Hotel_Mille_Etoiles\Prj_Object\bin\Debug\Prj_Object.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\hotel\Prj_Hotel_Mille_Etoiles\Prj_Object\bin\Debug\Prj_Object.pdb
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\hotel\Prj_Hotel_Mille_Etoiles\Prj_Object\obj\Debug\Prj_Object.BaseForm.resources
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\hotel\Prj_Hotel_Mille_Etoiles\Prj_Object\obj\Debug\Prj_Object.csproj.GenerateResource.Cache
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\hotel\Prj_Hotel_Mille_Etoiles\Prj_Object\obj\Debug\Prj_Object.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\hotel\Prj_Hotel_Mille_Etoiles\Prj_Object\obj\Debug\Prj_Object.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\hotel\Prj_Hotel_Mille_Etoiles\Prj_Object\obj\Debug\Prj_Object.pdb

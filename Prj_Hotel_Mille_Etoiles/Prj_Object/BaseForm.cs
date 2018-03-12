@@ -16,5 +16,10 @@ namespace Prj_Object
         {
             InitializeComponent();
         }
+
+        public virtual void buttonSave1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

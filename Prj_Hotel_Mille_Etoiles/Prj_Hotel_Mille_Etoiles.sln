@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prj_Hotel_Mille_Etoiles", "Prj_Hotel_Mille_Etoiles\Prj_Hotel_Mille_Etoiles.csproj", "{78E05B4B-C4E2-4D93-BB11-9AD66FD0770A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prj_Object", "Prj_Object\Prj_Object.csproj", "{44403ECC-F214-49E8-9778-36D712C317BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{78E05B4B-C4E2-4D93-BB11-9AD66FD0770A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78E05B4B-C4E2-4D93-BB11-9AD66FD0770A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78E05B4B-C4E2-4D93-BB11-9AD66FD0770A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44403ECC-F214-49E8-9778-36D712C317BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44403ECC-F214-49E8-9778-36D712C317BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44403ECC-F214-49E8-9778-36D712C317BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44403ECC-F214-49E8-9778-36D712C317BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
