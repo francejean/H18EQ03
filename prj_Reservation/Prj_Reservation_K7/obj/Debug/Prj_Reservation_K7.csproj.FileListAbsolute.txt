@@ -230,3 +230,160 @@ C:\Users\Patrick\Desktop\Développement de logiciel d'entreprise\hotel\prj_Reser
 C:\Users\Patrick\Desktop\Développement de logiciel d'entreprise\hotel\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.csproj.CoreCompileInputs.cache
 C:\Users\Patrick\Desktop\Développement de logiciel d'entreprise\hotel\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.exe
 C:\Users\Patrick\Desktop\Développement de logiciel d'entreprise\hotel\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.pdb
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Reservation_K7.exe.config
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Reservation_K7.exe
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Reservation_K7.pdb
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.DataDesign.DataSetDesigner.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Design.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VSDesigner.DLL
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Object.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\VSLangProj.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.DataDesign.Interfaces.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.DataTools.Interop.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.15.0.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Framework.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.WizardFramework.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\EnvDTE80.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.Interop.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\VSLangProj80.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.Framework.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Utilities.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.DataTools.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Imaging.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\stdole.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\VSLangProj2.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.vspGridControl.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.Compatibility.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.Providers.SqlServer.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.Host.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.Providers.Common.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Object.pdb
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Object.dll.config
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Shell.Design.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VSDesigner.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.DataDesign.Interfaces.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Shell.15.0.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.WizardFramework.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Data.Framework.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\en\Microsoft.VisualStudio.Utilities.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Utilities.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.DataTools.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\en\Microsoft.VisualStudio.Imaging.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Imaging.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.Data.ConnectionUI.Dialog.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Data.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.vspGridControl.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Data.Providers.SqlServer.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Data.Host.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Data.Providers.Common.resources.dll
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.exe.config
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.Properties.Resources.resources
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.csproj.GenerateResource.Cache
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.exe
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.pdb
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.Form_BaseForm_Reservation.resources
+C:\Users\Patrick\Desktop\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.Form_LS_Client.resources
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Reservation_K7.exe.config
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Reservation_K7.exe
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Reservation_K7.pdb
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.DataDesign.DataSetDesigner.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Design.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Object.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\VSLangProj.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.DataDesign.Interfaces.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.15.0.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Framework.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\EnvDTE80.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\VSLangProj80.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Utilities.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.Imaging.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\stdole.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\VSLangProj2.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Object.pdb
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\Prj_Object.dll.config
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Shell.Design.resources.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.DataDesign.Interfaces.resources.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Shell.15.0.resources.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\en\Microsoft.VisualStudio.Utilities.resources.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Utilities.resources.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\en\Microsoft.VisualStudio.Imaging.resources.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.Imaging.resources.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\bin\Debug\fr\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.exe.config
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.Form_BaseForm_Reservation.resources
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.Form_LS_Client.resources
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.Form_LS_Reservation.resources
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.Properties.Resources.resources
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.csproj.GenerateResource.Cache
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.exe
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.pdb
+C:\Users\Patrick\Desktop\H18\Développement de logiciel d'entreprise\cossin2\H18EQ03\prj_Reservation\Prj_Reservation_K7\obj\Debug\Prj_Reservation_K7.Form_LS_Chambre.resources

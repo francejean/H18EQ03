@@ -3,7 +3,13 @@
 ***********************************************************/
 
 INSERT INTO client(nom, adresse, telephone, noCarte, typeCarte, datExp, soldeDu)
-	VALUES('Du con', 'Rue barbe', '4186666666', '1111111111111111', 'Wiza', '2018-12-12', 15.5);
+	VALUES('Du con', 'Rue barbe', '4186666666', '1211111111111111', 'Wiza', '2018-12-12', 15.5);
+INSERT INTO client(nom, adresse, telephone, noCarte, typeCarte, datExp, soldeDu)
+	VALUES('Du con2', '9 3 quart', '4186665555', '1113111111111111', 'Wiza', '2018-12-12', 20.3);
+INSERT INTO client(nom, adresse, telephone, noCarte, typeCarte, datExp, soldeDu)
+	VALUES('Du con3', 'Rang quart', '4186664444', '1114111111111111', 'Mister Kart', '2018-12-12', 70.4);
+INSERT INTO client(nom, adresse, telephone, noCarte, typeCarte, datExp, soldeDu)
+	VALUES('Du con4', '123 fausse rue', '4186663333', '1111511111111111', 'Wiza', '2018-12-12', 150.52);
 
 /***********************************************************
           Table "Commodite"
@@ -63,15 +69,29 @@ INSERT INTO chambre VALUES ('811','08','854.32','1','yolo','VM','1J');
           Table "Ayant"
 ***********************************************************/
 
+INSERT INTO ayant VALUES ('101', 'AS');
+INSERT INTO ayant VALUES ('101', 'BA');
+INSERT INTO ayant VALUES ('102', 'IN');
+INSERT INTO ayant VALUES ('103', 'BA');
+INSERT INTO ayant VALUES ('201', 'HP');
+INSERT INTO ayant VALUES ('301', 'CC');
+INSERT INTO ayant VALUES ('401', 'NF');
+INSERT INTO ayant VALUES ('501', 'MB');
+INSERT INTO ayant VALUES ('601', 'AS');
+INSERT INTO ayant VALUES ('701', 'BA');
+INSERT INTO ayant VALUES ('801', 'MB');
+INSERT INTO ayant VALUES ('811', 'HP');
+INSERT INTO ayant VALUES ('901', 'IN');
+
 /***********************************************************
           Table "Reservation"
 ***********************************************************/
 
 INSERT INTO reservation VALUES('2018-2-9', '2018-2-23', '2018-3-9', 1);
-INSERT INTO reservation VALUES('2018-3-9', '2018-3-23', '2018-4-9', 1);
-INSERT INTO reservation VALUES('2018-4-9', '2018-4-23', '2018-5-9', 1);
+INSERT INTO reservation VALUES('2018-3-9', '2018-3-23', '2018-4-9', 3);
+INSERT INTO reservation VALUES('2018-4-9', '2018-4-23', '2018-5-9', 2);
 INSERT INTO reservation VALUES('2018-4-9', '2018-4-27', '2018-5-13', 1);
-INSERT INTO reservation VALUES('2018-5-9', '2018-5-23', '2018-6-9', 1);
+INSERT INTO reservation VALUES('2018-5-9', '2018-5-23', '2018-6-9', 4);
 
 /***********************************************************
           Table "De"
@@ -88,6 +108,8 @@ INSERT INTO de VALUES(0, 5, '101');
 ***********************************************************/
 
 INSERT INTO arrive VALUES ('20180101', 1, 1, '101');
+INSERT INTO arrive VALUES ('20180103', 3, 2, '201');
+INSERT INTO arrive VALUES ('20180106', 2, 3, '301');
 
 /***********************************************************
           Table "TypeTrx"

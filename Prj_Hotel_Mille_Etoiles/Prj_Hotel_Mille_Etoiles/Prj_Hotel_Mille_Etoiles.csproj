@@ -148,7 +148,9 @@
     <Content Include="SQL_Scripts\scriptDepart.sql" />
     <Content Include="SQL_Scripts\scriptInsertionChambre.sql" />
     <Content Include="SQL_Scripts\scriptTest.sql" />
+    <Content Include="SQL_Scripts\Sql_CreationTables.sql" />
     <Content Include="SQL_Scripts\Sql_CreationTables_E1.sql" />
+    <Content Include="SQL_Scripts\Sql_InsertionTables.sql" />
     <Content Include="SQL_Scripts\Sql_InsertionTables_E1.sql" />
     <Content Include="SQL_Scripts\SQL_ScriptCreation_TRX.sql" />
     <Content Include="SQL_Scripts\SQL_ScriptInsertion_TRX.sql" />

@@ -77,7 +77,7 @@ CREATE TABLE typechambre (
 ***********************************************************/
 
 CREATE TABLE chambre (
-	noChamb    VARCHAR(3)   NOT NULL,/*PK*/
+	noCham     VARCHAR(3)   NOT NULL,/*PK*/
 	etage      VARCHAR(2)   NULL,
 	prix       DECIMAL(5,2) NULL,
 	etat       TINYINT      NULL,
@@ -85,7 +85,7 @@ CREATE TABLE chambre (
 	codLoc     VARCHAR(2)   NULL,/*FK*/
 	codTypCham VARCHAR(2)   NULL,/*FK*/
 
-	PRIMARY KEY (noChamb)
+	PRIMARY KEY (noCham)
 )
 
 /***********************************************************
@@ -93,7 +93,7 @@ CREATE TABLE chambre (
 ***********************************************************/
 
 CREATE TABLE ayant (
-	noChamb VARCHAR(3) NULL,/*FK*/
+	noCham VARCHAR(3) NULL,/*FK*/
 	codCom  VARCHAR(2) NULL /*FK*/
 )
 
@@ -155,13 +155,13 @@ CREATE TABLE arrive
 (
   idArrive           INT IDENTITY(1,1) NOT NULL,/*PK*/
   dateArrive         DATE              NULL,
-  clientIdCli        INT               NOT NULL,/*FK*/
-  reservationIdReser INT               NOT NULL,/*FK*/
-  chambreNoCham      VARCHAR(3)        NOT NULL,/*FK*/
+  idCli              INT               NULL,/*FK*/
+  idReser            INT               NULL,/*FK*/
+  noCham             VARCHAR(3)        NULL,/*FK*/
   
   PRIMARY KEY (idArrive),
-  FOREIGN KEY (reservationIdReser) REFERENCES reservation(idReser),
-  FOREIGN KEY (chambreNoCham)      REFERENCES chambre(noChamb)
+  FOREIGN KEY (idReser)                REFERENCES reservation(idReser),
+  FOREIGN KEY (noCham)                 REFERENCES chambre(noCham)
 )
 
 /***********************************************************
@@ -173,26 +173,26 @@ CREATE TABLE depart (
 	dateDepart		DATE              NULL,
 	confirmerPar 	DECIMAL(5,2)      NULL,
 	idReser			INT	              NULL,/*FK*/
-	noChamb			VARCHAR(3)        NULL,/*FK*/
+	noCham			VARCHAR(3)        NULL,/*FK*/
 	idCli			INT               NULL,/*FK*/
 
 	PRIMARY KEY (idDepart),
 	FOREIGN KEY (idReser) REFERENCES reservation(idReser),
-	FOREIGN KEY (noChamb) REFERENCES chambre(noChamb),
+	FOREIGN KEY (noCham) REFERENCES chambre(noCham),
 	FOREIGN KEY (idCli)   REFERENCES client(idCli)
 )
 
 ALTER TABLE reservation ADD CONSTRAINT FK  FOREIGN KEY (idCli)   REFERENCES client(idCli);
 ALTER TABLE de          ADD CONSTRAINT FK1 FOREIGN KEY (idReser) REFERENCES reservation(idReser);
-ALTER TABLE de          ADD CONSTRAINT FK2 FOREIGN KEY (noCham)  REFERENCES chambre(noChamb);
+ALTER TABLE de          ADD CONSTRAINT FK2 FOREIGN KEY (noCham)  REFERENCES chambre(noCham);
 
 ALTER TABLE chambre ADD CONSTRAINT FK3 FOREIGN KEY (codLoc)     REFERENCES localisation(codLoc);
 ALTER TABLE chambre ADD CONSTRAINT FK4 FOREIGN KEY (codTypCham) REFERENCES typechambre(codTypCham);
-ALTER TABLE ayant   ADD CONSTRAINT FK5 FOREIGN KEY (noChamb)    REFERENCES chambre(noChamb);
+ALTER TABLE ayant   ADD CONSTRAINT FK5 FOREIGN KEY (noCham)     REFERENCES chambre(noCham);
 ALTER TABLE ayant   ADD CONSTRAINT FK6 FOREIGN KEY (codCom)     REFERENCES commodite(codCom);
 
 ALTER TABLE trx ADD CONSTRAINT FK7  FOREIGN KEY (codTypTrx) REFERENCES typetrx(codTypTrx);
 ALTER TABLE trx ADD CONSTRAINT FK8  FOREIGN KEY (idReser)   REFERENCES reservation(idReser);
-ALTER TABLE trx ADD CONSTRAINT FK9  FOREIGN KEY (noCham)    REFERENCES chambre(noChamb);
+ALTER TABLE trx ADD CONSTRAINT FK9  FOREIGN KEY (noCham)    REFERENCES chambre(noCham);
 ALTER TABLE trx ADD CONSTRAINT FK10 FOREIGN KEY (idCli)     REFERENCES client(idCli);
 /*ALTER TABLE trx ADD CONSTRAINT FK11 FOREIGN KEY (idArrive)  REFERENCES arrive(idArrive);*/

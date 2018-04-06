@@ -26,8 +26,8 @@ namespace Prj_Reservation_K7.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=mssql.local.shawinigan.info;Initial Catalog=h18equipe3;Persist Securi" +
-            "ty Info=True;User ID=h18equipe3etd1;Password=1517125446")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=h18equipe3;Integrated Security" +
+            "=True")]
         public string h18equipe3ConnectionString {
             get {
                 return ((string)(this["h18equipe3ConnectionString"]));

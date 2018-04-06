@@ -1,6 +1,6 @@
 ﻿namespace Prj_Reservation_K7
 {
-    partial class Form1
+    partial class Form_BaseForm_Reservation
     {
         /// <summary>
         /// Required designer variable.
@@ -29,119 +29,123 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.DG_Reservation = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gbx_FormData = new System.Windows.Forms.GroupBox();
+            this.Dgv_Rooms = new System.Windows.Forms.DataGridView();
+            this.idReserDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.noChamDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codTypChamDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prixDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.attribueeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BS_De = new System.Windows.Forms.BindingSource(this.components);
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.Rv_ResPour = new Prj_Object.TextBox();
-            this.labelInfo12 = new Prj_Object.LabelInfo();
-            this.Rv_NoRes = new Prj_Object.TextBox();
-            this.Rv_DatFin = new Prj_Object.TextBox();
-            this.labelInfo10 = new Prj_Object.LabelInfo();
-            this.Rv_ResLe = new Prj_Object.TextBox();
-            this.labelInfo14 = new Prj_Object.LabelInfo();
-            this.Rv_DatDeb = new Prj_Object.TextBox();
-            this.labelInfo15 = new Prj_Object.LabelInfo();
-            this.labelInfo16 = new Prj_Object.LabelInfo();
-            this.labelTitle2 = new Prj_Object.LabelTitle();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.Rv_SldDu = new Prj_Object.TextBox();
-            this.labelInfo9 = new Prj_Object.LabelInfo();
-            this.Rv_Exp = new Prj_Object.TextBox();
-            this.labelInfo8 = new Prj_Object.LabelInfo();
-            this.Rv_NoCar = new Prj_Object.TextBox();
-            this.labelInfo11 = new Prj_Object.LabelInfo();
-            this.Rv_Tel = new Prj_Object.TextBox();
-            this.labelInfo7 = new Prj_Object.LabelInfo();
-            this.Rv_TypCar = new Prj_Object.TextBox();
-            this.labelInfo6 = new Prj_Object.LabelInfo();
-            this.Rv_Add = new Prj_Object.TextBox();
-            this.labelInfo5 = new Prj_Object.LabelInfo();
-            this.Rv_NomCli = new Prj_Object.TextBox();
-            this.Rv_NoCli = new Prj_Object.TextBox();
-            this.labelInfo4 = new Prj_Object.LabelInfo();
-            this.labelInfo3 = new Prj_Object.LabelInfo();
-            this.labelTitle1 = new Prj_Object.LabelTitle();
-            this.BS_Reservation = new System.Windows.Forms.BindingSource(this.components);
-            this.TA_De = new Prj_Reservation_K7.DS_ReservationTableAdapters.deTableAdapter();
-            this.dS_Reservation1 = new Prj_Reservation_K7.DS_Reservation();
+            this.DS_Reservation = new Prj_Reservation_K7.DS_Reservation();
+            this.Gbx_BookingData = new System.Windows.Forms.GroupBox();
+            this.Tbx_ResPour = new Prj_Object.TextBox();
+            this.Lbl_BookingFor = new Prj_Object.LabelInfo();
+            this.Tbx_idBooking = new Prj_Object.TextBox();
+            this.Tbx_BookingEndAt = new Prj_Object.TextBox();
+            this.Lbl_BookingEndAt = new Prj_Object.LabelInfo();
+            this.Tbx_BookingDoneAt = new Prj_Object.TextBox();
+            this.Lbl_BookingDoneAt = new Prj_Object.LabelInfo();
+            this.Tbx_BookingStartAt = new Prj_Object.TextBox();
+            this.Lbl_BookingStartAt = new Prj_Object.LabelInfo();
+            this.Lbl_idBooking = new Prj_Object.LabelInfo();
+            this.Lbl_BookingData = new Prj_Object.LabelTitle();
+            this.Gbx_ClientData = new System.Windows.Forms.GroupBox();
+            this.Tbx_BalanceDue = new Prj_Object.TextBox();
+            this.Lbl_BalanceDue = new Prj_Object.LabelInfo();
+            this.Tbx_CardExp = new Prj_Object.TextBox();
+            this.Lbl_CardExp = new Prj_Object.LabelInfo();
+            this.Tbx_CardNb = new Prj_Object.TextBox();
+            this.Lbl_CardNb = new Prj_Object.LabelInfo();
+            this.Tbx_PhoneNb = new Prj_Object.TextBox();
+            this.Lbl_PhoneNb = new Prj_Object.LabelInfo();
+            this.Tbx_CardType = new Prj_Object.TextBox();
+            this.Lbl_CardType = new Prj_Object.LabelInfo();
+            this.Tbx_Address = new Prj_Object.TextBox();
+            this.Lbl_Address = new Prj_Object.LabelInfo();
+            this.Tbx_Name = new Prj_Object.TextBox();
+            this.Tbx_idCli = new Prj_Object.TextBox();
+            this.Lbl_Name = new Prj_Object.LabelInfo();
+            this.Lbl_idCli = new Prj_Object.LabelInfo();
+            this.Lbl_ClientDataTitle = new Prj_Object.LabelTitle();
             this.TA_Reservation = new Prj_Reservation_K7.DS_ReservationTableAdapters.reservationTableAdapter();
             this.TA_Client = new Prj_Reservation_K7.DS_ReservationTableAdapters.clientTableAdapter();
+            this.TA_De = new Prj_Reservation_K7.DS_ReservationTableAdapters.deTableAdapter();
+            this.TA_Chambre = new Prj_Reservation_K7.DS_ReservationTableAdapters.chambreTableAdapter();
+            this.BS_Reservation = new System.Windows.Forms.BindingSource(this.components);
             this.BS_Client = new System.Windows.Forms.BindingSource(this.components);
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DG_Reservation)).BeginInit();
+            this.BS_Chambre = new System.Windows.Forms.BindingSource(this.components);
+            this.Gbx_FormData.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv_Rooms)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BS_De)).BeginInit();
-            this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DS_Reservation)).BeginInit();
+            this.Gbx_BookingData.SuspendLayout();
+            this.Gbx_ClientData.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BS_Reservation)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dS_Reservation1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BS_Client)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BS_Chambre)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonChangeDiscard1
             // 
-            this.buttonChangeDiscard1.Click += new System.EventHandler(this.ButtonDiscardChange_Click);
+            this.buttonChangeDiscard1.Click += new System.EventHandler(this.buttonDiscardChange_Click);
             // 
             // buttonChangeRevert1
             // 
-            this.buttonChangeRevert1.Click += new System.EventHandler(this.ButtonUndoChange_Click);
+            this.buttonChangeRevert1.Click += new System.EventHandler(this.buttonUndoChange_Click);
             // 
             // buttonFileDelete1
             // 
             this.buttonFileDelete1.Location = new System.Drawing.Point(639, 12);
-            this.buttonFileDelete1.Click += new System.EventHandler(this.ButtonDeleteFile_Click);
+            this.buttonFileDelete1.Click += new System.EventHandler(this.buttonDeleteFile_Click);
             // 
             // buttonFileNew1
             // 
             this.buttonFileNew1.Location = new System.Drawing.Point(477, 12);
-            this.buttonFileNew1.Click += new System.EventHandler(this.ButtonNewFile_Click);
+            this.buttonFileNew1.Click += new System.EventHandler(this.buttonNewFile_Click);
             // 
             // buttonFileEdit1
             // 
             this.buttonFileEdit1.Location = new System.Drawing.Point(558, 12);
-            this.buttonFileEdit1.Click += new System.EventHandler(this.ButtonEditFile_Click);
+            this.buttonFileEdit1.Click += new System.EventHandler(this.buttonEditFile_Click);
             // 
             // buttonGoBegin1
             // 
             this.buttonGoBegin1.Location = new System.Drawing.Point(346, 541);
-            this.buttonGoBegin1.Click += new System.EventHandler(this.ButtonBegin_Click);
+            this.buttonGoBegin1.Click += new System.EventHandler(this.buttonBegin_Click);
             // 
             // buttonGoNext1
             // 
             this.buttonGoNext1.Location = new System.Drawing.Point(682, 541);
-            this.buttonGoNext1.Click += new System.EventHandler(this.ButtonNext_Click);
+            this.buttonGoNext1.Click += new System.EventHandler(this.buttonNext_Click);
             // 
             // buttonGoEnd1
             // 
             this.buttonGoEnd1.Location = new System.Drawing.Point(763, 541);
-            this.buttonGoEnd1.Click += new System.EventHandler(this.ButtonEnd_Click);
+            this.buttonGoEnd1.Click += new System.EventHandler(this.buttonEnd_Click);
             // 
             // buttonGoPrevious1
             // 
             this.buttonGoPrevious1.Location = new System.Drawing.Point(427, 541);
-            this.buttonGoPrevious1.Click += new System.EventHandler(this.ButtonPrev_Click);
+            this.buttonGoPrevious1.Click += new System.EventHandler(this.buttonPrev_Click);
             // 
             // buttonModeConsultation1
             // 
             this.buttonModeConsultation1.Location = new System.Drawing.Point(293, 12);
-            this.buttonModeConsultation1.Click += new System.EventHandler(this.ButtonViewMode_Click);
+            this.buttonModeConsultation1.Click += new System.EventHandler(this.buttonViewMode_Click);
             // 
             // buttonModeEdit1
             // 
             this.buttonModeEdit1.Location = new System.Drawing.Point(374, 12);
-            this.buttonModeEdit1.Click += new System.EventHandler(this.ButtonEditMode_Click);
+            this.buttonModeEdit1.Click += new System.EventHandler(this.buttonEditMode_Click);
             // 
             // buttonQuit1
             // 
-            this.buttonQuit1.Click += new System.EventHandler(this.ButtonLeave_Click);
+            this.buttonQuit1.Click += new System.EventHandler(this.buttonLeave_Click);
             // 
             // buttonSave1
             // 
-            this.buttonSave1.Click += new System.EventHandler(this.ButtonSave_Click);
+            this.buttonSave1.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // textBox1
             // 
@@ -155,385 +159,399 @@
             // 
             this.labelInfo2.Location = new System.Drawing.Point(579, 560);
             // 
-            // groupBox1
+            // Gbx_FormData
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.Gbx_FormData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.DG_Reservation);
-            this.groupBox1.Controls.Add(this.groupBox3);
-            this.groupBox1.Controls.Add(this.labelTitle2);
-            this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Controls.Add(this.labelTitle1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 93);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1160, 442);
-            this.groupBox1.TabIndex = 16;
-            this.groupBox1.TabStop = false;
+            this.Gbx_FormData.Controls.Add(this.Dgv_Rooms);
+            this.Gbx_FormData.Controls.Add(this.Gbx_BookingData);
+            this.Gbx_FormData.Controls.Add(this.Lbl_BookingData);
+            this.Gbx_FormData.Controls.Add(this.Gbx_ClientData);
+            this.Gbx_FormData.Controls.Add(this.Lbl_ClientDataTitle);
+            this.Gbx_FormData.Location = new System.Drawing.Point(12, 93);
+            this.Gbx_FormData.Name = "Gbx_FormData";
+            this.Gbx_FormData.Size = new System.Drawing.Size(1160, 442);
+            this.Gbx_FormData.TabIndex = 16;
+            this.Gbx_FormData.TabStop = false;
             // 
-            // DG_Reservation
+            // Dgv_Rooms
             // 
-            this.DG_Reservation.AllowUserToAddRows = false;
-            this.DG_Reservation.AllowUserToDeleteRows = false;
-            this.DG_Reservation.AutoGenerateColumns = false;
-            this.DG_Reservation.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DG_Reservation.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4});
-            this.DG_Reservation.DataSource = this.BS_De;
-            this.DG_Reservation.Location = new System.Drawing.Point(34, 286);
-            this.DG_Reservation.Name = "DG_Reservation";
-            this.DG_Reservation.ReadOnly = true;
-            this.DG_Reservation.Size = new System.Drawing.Size(1096, 150);
-            this.DG_Reservation.TabIndex = 46;
-            this.DG_Reservation.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DG_Reservation_CellContentClick);
+            this.Dgv_Rooms.AllowUserToAddRows = false;
+            this.Dgv_Rooms.AllowUserToDeleteRows = false;
+            this.Dgv_Rooms.AutoGenerateColumns = false;
+            this.Dgv_Rooms.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dgv_Rooms.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idReserDataGridViewTextBoxColumn,
+            this.noChamDataGridViewTextBoxColumn,
+            this.codTypChamDataGridViewTextBoxColumn,
+            this.prixDataGridViewTextBoxColumn,
+            this.attribueeDataGridViewTextBoxColumn});
+            this.Dgv_Rooms.DataSource = this.BS_De;
+            this.Dgv_Rooms.Location = new System.Drawing.Point(34, 286);
+            this.Dgv_Rooms.Name = "Dgv_Rooms";
+            this.Dgv_Rooms.ReadOnly = true;
+            this.Dgv_Rooms.Size = new System.Drawing.Size(1096, 150);
+            this.Dgv_Rooms.TabIndex = 46;
             // 
-            // Column1
+            // idReserDataGridViewTextBoxColumn
             // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.HeaderText = "No chambre";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column1.ToolTipText = "Numéro de la chambre réservée";
+            this.idReserDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.idReserDataGridViewTextBoxColumn.DataPropertyName = "idReser";
+            this.idReserDataGridViewTextBoxColumn.HeaderText = "Id Réservation";
+            this.idReserDataGridViewTextBoxColumn.Name = "idReserDataGridViewTextBoxColumn";
+            this.idReserDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column2
+            // noChamDataGridViewTextBoxColumn
             // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.HeaderText = "Type";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
+            this.noChamDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.noChamDataGridViewTextBoxColumn.DataPropertyName = "noCham";
+            this.noChamDataGridViewTextBoxColumn.HeaderText = "No. Chambre";
+            this.noChamDataGridViewTextBoxColumn.Name = "noChamDataGridViewTextBoxColumn";
+            this.noChamDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column3
+            // codTypChamDataGridViewTextBoxColumn
             // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.HeaderText = "Prix";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
+            this.codTypChamDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.codTypChamDataGridViewTextBoxColumn.DataPropertyName = "codTypCham";
+            this.codTypChamDataGridViewTextBoxColumn.HeaderText = "Type Chambre";
+            this.codTypChamDataGridViewTextBoxColumn.Name = "codTypChamDataGridViewTextBoxColumn";
+            this.codTypChamDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column4
+            // prixDataGridViewTextBoxColumn
             // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.HeaderText = "Attribuée";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
+            this.prixDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.prixDataGridViewTextBoxColumn.DataPropertyName = "prix";
+            this.prixDataGridViewTextBoxColumn.HeaderText = "Prix";
+            this.prixDataGridViewTextBoxColumn.Name = "prixDataGridViewTextBoxColumn";
+            this.prixDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // groupBox3
+            // attribueeDataGridViewTextBoxColumn
             // 
-            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.attribueeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.attribueeDataGridViewTextBoxColumn.DataPropertyName = "attribuee";
+            this.attribueeDataGridViewTextBoxColumn.HeaderText = "Attribuée";
+            this.attribueeDataGridViewTextBoxColumn.Name = "attribueeDataGridViewTextBoxColumn";
+            this.attribueeDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // BS_De
+            // 
+            this.BS_De.DataMember = "de";
+            this.BS_De.DataSource = this.DS_Reservation;
+            // 
+            // DS_Reservation
+            // 
+            this.DS_Reservation.DataSetName = "DS_Reservation";
+            this.DS_Reservation.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // Gbx_BookingData
+            // 
+            this.Gbx_BookingData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox3.Controls.Add(this.Rv_ResPour);
-            this.groupBox3.Controls.Add(this.labelInfo12);
-            this.groupBox3.Controls.Add(this.Rv_NoRes);
-            this.groupBox3.Controls.Add(this.Rv_DatFin);
-            this.groupBox3.Controls.Add(this.labelInfo10);
-            this.groupBox3.Controls.Add(this.Rv_ResLe);
-            this.groupBox3.Controls.Add(this.labelInfo14);
-            this.groupBox3.Controls.Add(this.Rv_DatDeb);
-            this.groupBox3.Controls.Add(this.labelInfo15);
-            this.groupBox3.Controls.Add(this.labelInfo16);
-            this.groupBox3.Location = new System.Drawing.Point(714, 42);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(416, 215);
-            this.groupBox3.TabIndex = 41;
-            this.groupBox3.TabStop = false;
+            this.Gbx_BookingData.Controls.Add(this.Tbx_ResPour);
+            this.Gbx_BookingData.Controls.Add(this.Lbl_BookingFor);
+            this.Gbx_BookingData.Controls.Add(this.Tbx_idBooking);
+            this.Gbx_BookingData.Controls.Add(this.Tbx_BookingEndAt);
+            this.Gbx_BookingData.Controls.Add(this.Lbl_BookingEndAt);
+            this.Gbx_BookingData.Controls.Add(this.Tbx_BookingDoneAt);
+            this.Gbx_BookingData.Controls.Add(this.Lbl_BookingDoneAt);
+            this.Gbx_BookingData.Controls.Add(this.Tbx_BookingStartAt);
+            this.Gbx_BookingData.Controls.Add(this.Lbl_BookingStartAt);
+            this.Gbx_BookingData.Controls.Add(this.Lbl_idBooking);
+            this.Gbx_BookingData.Location = new System.Drawing.Point(714, 42);
+            this.Gbx_BookingData.Name = "Gbx_BookingData";
+            this.Gbx_BookingData.Size = new System.Drawing.Size(416, 215);
+            this.Gbx_BookingData.TabIndex = 41;
+            this.Gbx_BookingData.TabStop = false;
             // 
-            // Rv_ResPour
+            // Tbx_ResPour
             // 
-            this.Rv_ResPour.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_ResPour.Location = new System.Drawing.Point(168, 177);
-            this.Rv_ResPour.Name = "Rv_ResPour";
-            this.Rv_ResPour.Size = new System.Drawing.Size(167, 25);
-            this.Rv_ResPour.TabIndex = 43;
+            this.Tbx_ResPour.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_ResPour.Location = new System.Drawing.Point(168, 177);
+            this.Tbx_ResPour.Name = "Tbx_ResPour";
+            this.Tbx_ResPour.Size = new System.Drawing.Size(167, 25);
+            this.Tbx_ResPour.TabIndex = 43;
             // 
-            // labelInfo12
+            // Lbl_BookingFor
             // 
-            this.labelInfo12.AutoSize = true;
-            this.labelInfo12.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo12.Location = new System.Drawing.Point(45, 180);
-            this.labelInfo12.Name = "labelInfo12";
-            this.labelInfo12.Size = new System.Drawing.Size(97, 18);
-            this.labelInfo12.TabIndex = 42;
-            this.labelInfo12.Text = "Réservé pour:";
+            this.Lbl_BookingFor.AutoSize = true;
+            this.Lbl_BookingFor.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_BookingFor.Location = new System.Drawing.Point(45, 180);
+            this.Lbl_BookingFor.Name = "Lbl_BookingFor";
+            this.Lbl_BookingFor.Size = new System.Drawing.Size(97, 18);
+            this.Lbl_BookingFor.TabIndex = 42;
+            this.Lbl_BookingFor.Text = "Réservé pour:";
             // 
-            // Rv_NoRes
+            // Tbx_idBooking
             // 
-            this.Rv_NoRes.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_NoRes.Location = new System.Drawing.Point(168, 13);
-            this.Rv_NoRes.Name = "Rv_NoRes";
-            this.Rv_NoRes.Size = new System.Drawing.Size(167, 25);
-            this.Rv_NoRes.TabIndex = 41;
+            this.Tbx_idBooking.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_idBooking.Location = new System.Drawing.Point(168, 13);
+            this.Tbx_idBooking.Name = "Tbx_idBooking";
+            this.Tbx_idBooking.Size = new System.Drawing.Size(167, 25);
+            this.Tbx_idBooking.TabIndex = 41;
+            this.Tbx_idBooking.TextChanged += new System.EventHandler(this.tbx_idBooking_TextChanged);
+            this.Tbx_idBooking.DoubleClick += new System.EventHandler(this.tbx_idBooking_DoubleClick);
             // 
-            // Rv_DatFin
+            // Tbx_BookingEndAt
             // 
-            this.Rv_DatFin.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_DatFin.Location = new System.Drawing.Point(168, 136);
-            this.Rv_DatFin.Name = "Rv_DatFin";
-            this.Rv_DatFin.Size = new System.Drawing.Size(167, 25);
-            this.Rv_DatFin.TabIndex = 40;
+            this.Tbx_BookingEndAt.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_BookingEndAt.Location = new System.Drawing.Point(168, 136);
+            this.Tbx_BookingEndAt.Name = "Tbx_BookingEndAt";
+            this.Tbx_BookingEndAt.Size = new System.Drawing.Size(167, 25);
+            this.Tbx_BookingEndAt.TabIndex = 40;
             // 
-            // labelInfo10
+            // Lbl_BookingEndAt
             // 
-            this.labelInfo10.AutoSize = true;
-            this.labelInfo10.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo10.Location = new System.Drawing.Point(45, 139);
-            this.labelInfo10.Name = "labelInfo10";
-            this.labelInfo10.Size = new System.Drawing.Size(86, 18);
-            this.labelInfo10.TabIndex = 39;
-            this.labelInfo10.Text = "Date de fin:";
+            this.Lbl_BookingEndAt.AutoSize = true;
+            this.Lbl_BookingEndAt.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_BookingEndAt.Location = new System.Drawing.Point(45, 139);
+            this.Lbl_BookingEndAt.Name = "Lbl_BookingEndAt";
+            this.Lbl_BookingEndAt.Size = new System.Drawing.Size(86, 18);
+            this.Lbl_BookingEndAt.TabIndex = 39;
+            this.Lbl_BookingEndAt.Text = "Date de fin:";
             // 
-            // Rv_ResLe
+            // Tbx_BookingDoneAt
             // 
-            this.Rv_ResLe.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_ResLe.Location = new System.Drawing.Point(168, 54);
-            this.Rv_ResLe.Name = "Rv_ResLe";
-            this.Rv_ResLe.Size = new System.Drawing.Size(167, 25);
-            this.Rv_ResLe.TabIndex = 32;
+            this.Tbx_BookingDoneAt.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_BookingDoneAt.Location = new System.Drawing.Point(168, 54);
+            this.Tbx_BookingDoneAt.Name = "Tbx_BookingDoneAt";
+            this.Tbx_BookingDoneAt.Size = new System.Drawing.Size(167, 25);
+            this.Tbx_BookingDoneAt.TabIndex = 32;
             // 
-            // labelInfo14
+            // Lbl_BookingDoneAt
             // 
-            this.labelInfo14.AutoSize = true;
-            this.labelInfo14.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo14.Location = new System.Drawing.Point(45, 57);
-            this.labelInfo14.Name = "labelInfo14";
-            this.labelInfo14.Size = new System.Drawing.Size(78, 18);
-            this.labelInfo14.TabIndex = 27;
-            this.labelInfo14.Text = "Réservé le:";
+            this.Lbl_BookingDoneAt.AutoSize = true;
+            this.Lbl_BookingDoneAt.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_BookingDoneAt.Location = new System.Drawing.Point(45, 57);
+            this.Lbl_BookingDoneAt.Name = "Lbl_BookingDoneAt";
+            this.Lbl_BookingDoneAt.Size = new System.Drawing.Size(78, 18);
+            this.Lbl_BookingDoneAt.TabIndex = 27;
+            this.Lbl_BookingDoneAt.Text = "Réservé le:";
             // 
-            // Rv_DatDeb
+            // Tbx_BookingStartAt
             // 
-            this.Rv_DatDeb.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_DatDeb.Location = new System.Drawing.Point(168, 95);
-            this.Rv_DatDeb.Name = "Rv_DatDeb";
-            this.Rv_DatDeb.Size = new System.Drawing.Size(167, 25);
-            this.Rv_DatDeb.TabIndex = 26;
+            this.Tbx_BookingStartAt.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_BookingStartAt.Location = new System.Drawing.Point(168, 95);
+            this.Tbx_BookingStartAt.Name = "Tbx_BookingStartAt";
+            this.Tbx_BookingStartAt.Size = new System.Drawing.Size(167, 25);
+            this.Tbx_BookingStartAt.TabIndex = 26;
             // 
-            // labelInfo15
+            // Lbl_BookingStartAt
             // 
-            this.labelInfo15.AutoSize = true;
-            this.labelInfo15.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo15.Location = new System.Drawing.Point(45, 98);
-            this.labelInfo15.Name = "labelInfo15";
-            this.labelInfo15.Size = new System.Drawing.Size(109, 18);
-            this.labelInfo15.TabIndex = 25;
-            this.labelInfo15.Text = "Date de début:";
+            this.Lbl_BookingStartAt.AutoSize = true;
+            this.Lbl_BookingStartAt.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_BookingStartAt.Location = new System.Drawing.Point(45, 98);
+            this.Lbl_BookingStartAt.Name = "Lbl_BookingStartAt";
+            this.Lbl_BookingStartAt.Size = new System.Drawing.Size(109, 18);
+            this.Lbl_BookingStartAt.TabIndex = 25;
+            this.Lbl_BookingStartAt.Text = "Date de début:";
             // 
-            // labelInfo16
+            // Lbl_idBooking
             // 
-            this.labelInfo16.AutoSize = true;
-            this.labelInfo16.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo16.Location = new System.Drawing.Point(45, 16);
-            this.labelInfo16.Name = "labelInfo16";
-            this.labelInfo16.Size = new System.Drawing.Size(114, 18);
-            this.labelInfo16.TabIndex = 23;
-            this.labelInfo16.Text = "No. Réservation:";
+            this.Lbl_idBooking.AutoSize = true;
+            this.Lbl_idBooking.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_idBooking.Location = new System.Drawing.Point(45, 16);
+            this.Lbl_idBooking.Name = "Lbl_idBooking";
+            this.Lbl_idBooking.Size = new System.Drawing.Size(114, 18);
+            this.Lbl_idBooking.TabIndex = 23;
+            this.Lbl_idBooking.Text = "No. Réservation:";
             // 
-            // labelTitle2
+            // Lbl_BookingData
             // 
-            this.labelTitle2.AutoSize = true;
-            this.labelTitle2.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitle2.Location = new System.Drawing.Point(723, 16);
-            this.labelTitle2.Name = "labelTitle2";
-            this.labelTitle2.Size = new System.Drawing.Size(264, 23);
-            this.labelTitle2.TabIndex = 1;
-            this.labelTitle2.Text = "Information sur la réservation";
-            this.labelTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Lbl_BookingData.AutoSize = true;
+            this.Lbl_BookingData.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_BookingData.Location = new System.Drawing.Point(723, 16);
+            this.Lbl_BookingData.Name = "Lbl_BookingData";
+            this.Lbl_BookingData.Size = new System.Drawing.Size(264, 23);
+            this.Lbl_BookingData.TabIndex = 1;
+            this.Lbl_BookingData.Text = "Information sur la réservation";
+            this.Lbl_BookingData.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // groupBox2
+            // Gbx_ClientData
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.Gbx_ClientData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.Rv_SldDu);
-            this.groupBox2.Controls.Add(this.labelInfo9);
-            this.groupBox2.Controls.Add(this.Rv_Exp);
-            this.groupBox2.Controls.Add(this.labelInfo8);
-            this.groupBox2.Controls.Add(this.Rv_NoCar);
-            this.groupBox2.Controls.Add(this.labelInfo11);
-            this.groupBox2.Controls.Add(this.Rv_Tel);
-            this.groupBox2.Controls.Add(this.labelInfo7);
-            this.groupBox2.Controls.Add(this.Rv_TypCar);
-            this.groupBox2.Controls.Add(this.labelInfo6);
-            this.groupBox2.Controls.Add(this.Rv_Add);
-            this.groupBox2.Controls.Add(this.labelInfo5);
-            this.groupBox2.Controls.Add(this.Rv_NomCli);
-            this.groupBox2.Controls.Add(this.Rv_NoCli);
-            this.groupBox2.Controls.Add(this.labelInfo4);
-            this.groupBox2.Controls.Add(this.labelInfo3);
-            this.groupBox2.Location = new System.Drawing.Point(34, 42);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(622, 215);
-            this.groupBox2.TabIndex = 18;
-            this.groupBox2.TabStop = false;
+            this.Gbx_ClientData.Controls.Add(this.Tbx_BalanceDue);
+            this.Gbx_ClientData.Controls.Add(this.Lbl_BalanceDue);
+            this.Gbx_ClientData.Controls.Add(this.Tbx_CardExp);
+            this.Gbx_ClientData.Controls.Add(this.Lbl_CardExp);
+            this.Gbx_ClientData.Controls.Add(this.Tbx_CardNb);
+            this.Gbx_ClientData.Controls.Add(this.Lbl_CardNb);
+            this.Gbx_ClientData.Controls.Add(this.Tbx_PhoneNb);
+            this.Gbx_ClientData.Controls.Add(this.Lbl_PhoneNb);
+            this.Gbx_ClientData.Controls.Add(this.Tbx_CardType);
+            this.Gbx_ClientData.Controls.Add(this.Lbl_CardType);
+            this.Gbx_ClientData.Controls.Add(this.Tbx_Address);
+            this.Gbx_ClientData.Controls.Add(this.Lbl_Address);
+            this.Gbx_ClientData.Controls.Add(this.Tbx_Name);
+            this.Gbx_ClientData.Controls.Add(this.Tbx_idCli);
+            this.Gbx_ClientData.Controls.Add(this.Lbl_Name);
+            this.Gbx_ClientData.Controls.Add(this.Lbl_idCli);
+            this.Gbx_ClientData.Location = new System.Drawing.Point(34, 42);
+            this.Gbx_ClientData.Name = "Gbx_ClientData";
+            this.Gbx_ClientData.Size = new System.Drawing.Size(622, 215);
+            this.Gbx_ClientData.TabIndex = 18;
+            this.Gbx_ClientData.TabStop = false;
             // 
-            // Rv_SldDu
+            // Tbx_BalanceDue
             // 
-            this.Rv_SldDu.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_SldDu.Location = new System.Drawing.Point(122, 177);
-            this.Rv_SldDu.Name = "Rv_SldDu";
-            this.Rv_SldDu.Size = new System.Drawing.Size(167, 25);
-            this.Rv_SldDu.TabIndex = 40;
+            this.Tbx_BalanceDue.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_BalanceDue.Location = new System.Drawing.Point(122, 177);
+            this.Tbx_BalanceDue.Name = "Tbx_BalanceDue";
+            this.Tbx_BalanceDue.Size = new System.Drawing.Size(167, 25);
+            this.Tbx_BalanceDue.TabIndex = 40;
             // 
-            // labelInfo9
+            // Lbl_BalanceDue
             // 
-            this.labelInfo9.AutoSize = true;
-            this.labelInfo9.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo9.Location = new System.Drawing.Point(6, 180);
-            this.labelInfo9.Name = "labelInfo9";
-            this.labelInfo9.Size = new System.Drawing.Size(68, 18);
-            this.labelInfo9.TabIndex = 39;
-            this.labelInfo9.Text = "Solde dû:";
+            this.Lbl_BalanceDue.AutoSize = true;
+            this.Lbl_BalanceDue.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_BalanceDue.Location = new System.Drawing.Point(6, 180);
+            this.Lbl_BalanceDue.Name = "Lbl_BalanceDue";
+            this.Lbl_BalanceDue.Size = new System.Drawing.Size(68, 18);
+            this.Lbl_BalanceDue.TabIndex = 39;
+            this.Lbl_BalanceDue.Text = "Solde dû:";
             // 
-            // Rv_Exp
+            // Tbx_CardExp
             // 
-            this.Rv_Exp.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_Exp.Location = new System.Drawing.Point(425, 136);
-            this.Rv_Exp.Name = "Rv_Exp";
-            this.Rv_Exp.Size = new System.Drawing.Size(167, 25);
-            this.Rv_Exp.TabIndex = 38;
+            this.Tbx_CardExp.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_CardExp.Location = new System.Drawing.Point(425, 136);
+            this.Tbx_CardExp.Name = "Tbx_CardExp";
+            this.Tbx_CardExp.Size = new System.Drawing.Size(167, 25);
+            this.Tbx_CardExp.TabIndex = 38;
             // 
-            // labelInfo8
+            // Lbl_CardExp
             // 
-            this.labelInfo8.AutoSize = true;
-            this.labelInfo8.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo8.Location = new System.Drawing.Point(309, 139);
-            this.labelInfo8.Name = "labelInfo8";
-            this.labelInfo8.Size = new System.Drawing.Size(78, 18);
-            this.labelInfo8.TabIndex = 37;
-            this.labelInfo8.Text = "Expiration:";
+            this.Lbl_CardExp.AutoSize = true;
+            this.Lbl_CardExp.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_CardExp.Location = new System.Drawing.Point(309, 139);
+            this.Lbl_CardExp.Name = "Lbl_CardExp";
+            this.Lbl_CardExp.Size = new System.Drawing.Size(78, 18);
+            this.Lbl_CardExp.TabIndex = 37;
+            this.Lbl_CardExp.Text = "Expiration:";
             // 
-            // Rv_NoCar
+            // Tbx_CardNb
             // 
-            this.Rv_NoCar.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_NoCar.Location = new System.Drawing.Point(425, 95);
-            this.Rv_NoCar.Name = "Rv_NoCar";
-            this.Rv_NoCar.Size = new System.Drawing.Size(167, 25);
-            this.Rv_NoCar.TabIndex = 36;
+            this.Tbx_CardNb.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_CardNb.Location = new System.Drawing.Point(425, 95);
+            this.Tbx_CardNb.Name = "Tbx_CardNb";
+            this.Tbx_CardNb.Size = new System.Drawing.Size(167, 25);
+            this.Tbx_CardNb.TabIndex = 36;
             // 
-            // labelInfo11
+            // Lbl_CardNb
             // 
-            this.labelInfo11.AutoSize = true;
-            this.labelInfo11.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo11.Location = new System.Drawing.Point(309, 98);
-            this.labelInfo11.Name = "labelInfo11";
-            this.labelInfo11.Size = new System.Drawing.Size(74, 18);
-            this.labelInfo11.TabIndex = 35;
-            this.labelInfo11.Text = "No. Carte:";
+            this.Lbl_CardNb.AutoSize = true;
+            this.Lbl_CardNb.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_CardNb.Location = new System.Drawing.Point(309, 98);
+            this.Lbl_CardNb.Name = "Lbl_CardNb";
+            this.Lbl_CardNb.Size = new System.Drawing.Size(74, 18);
+            this.Lbl_CardNb.TabIndex = 35;
+            this.Lbl_CardNb.Text = "No. Carte:";
             // 
-            // Rv_Tel
+            // Tbx_PhoneNb
             // 
-            this.Rv_Tel.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_Tel.Location = new System.Drawing.Point(122, 95);
-            this.Rv_Tel.Name = "Rv_Tel";
-            this.Rv_Tel.Size = new System.Drawing.Size(167, 25);
-            this.Rv_Tel.TabIndex = 32;
+            this.Tbx_PhoneNb.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_PhoneNb.Location = new System.Drawing.Point(122, 95);
+            this.Tbx_PhoneNb.Name = "Tbx_PhoneNb";
+            this.Tbx_PhoneNb.Size = new System.Drawing.Size(167, 25);
+            this.Tbx_PhoneNb.TabIndex = 32;
             // 
-            // labelInfo7
+            // Lbl_PhoneNb
             // 
-            this.labelInfo7.AutoSize = true;
-            this.labelInfo7.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo7.Location = new System.Drawing.Point(6, 98);
-            this.labelInfo7.Name = "labelInfo7";
-            this.labelInfo7.Size = new System.Drawing.Size(80, 18);
-            this.labelInfo7.TabIndex = 27;
-            this.labelInfo7.Text = "Téléphone:";
+            this.Lbl_PhoneNb.AutoSize = true;
+            this.Lbl_PhoneNb.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_PhoneNb.Location = new System.Drawing.Point(6, 98);
+            this.Lbl_PhoneNb.Name = "Lbl_PhoneNb";
+            this.Lbl_PhoneNb.Size = new System.Drawing.Size(80, 18);
+            this.Lbl_PhoneNb.TabIndex = 27;
+            this.Lbl_PhoneNb.Text = "Téléphone:";
             // 
-            // Rv_TypCar
+            // Tbx_CardType
             // 
-            this.Rv_TypCar.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_TypCar.Location = new System.Drawing.Point(122, 136);
-            this.Rv_TypCar.Name = "Rv_TypCar";
-            this.Rv_TypCar.Size = new System.Drawing.Size(167, 25);
-            this.Rv_TypCar.TabIndex = 26;
+            this.Tbx_CardType.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_CardType.Location = new System.Drawing.Point(122, 136);
+            this.Tbx_CardType.Name = "Tbx_CardType";
+            this.Tbx_CardType.Size = new System.Drawing.Size(167, 25);
+            this.Tbx_CardType.TabIndex = 26;
             // 
-            // labelInfo6
+            // Lbl_CardType
             // 
-            this.labelInfo6.AutoSize = true;
-            this.labelInfo6.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo6.Location = new System.Drawing.Point(6, 139);
-            this.labelInfo6.Name = "labelInfo6";
-            this.labelInfo6.Size = new System.Drawing.Size(110, 18);
-            this.labelInfo6.TabIndex = 25;
-            this.labelInfo6.Text = "Type de Carte: ";
+            this.Lbl_CardType.AutoSize = true;
+            this.Lbl_CardType.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_CardType.Location = new System.Drawing.Point(6, 139);
+            this.Lbl_CardType.Name = "Lbl_CardType";
+            this.Lbl_CardType.Size = new System.Drawing.Size(110, 18);
+            this.Lbl_CardType.TabIndex = 25;
+            this.Lbl_CardType.Text = "Type de Carte: ";
             // 
-            // Rv_Add
+            // Tbx_Address
             // 
-            this.Rv_Add.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_Add.Location = new System.Drawing.Point(122, 54);
-            this.Rv_Add.Name = "Rv_Add";
-            this.Rv_Add.Size = new System.Drawing.Size(470, 25);
-            this.Rv_Add.TabIndex = 24;
+            this.Tbx_Address.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_Address.Location = new System.Drawing.Point(122, 54);
+            this.Tbx_Address.Name = "Tbx_Address";
+            this.Tbx_Address.Size = new System.Drawing.Size(470, 25);
+            this.Tbx_Address.TabIndex = 24;
             // 
-            // labelInfo5
+            // Lbl_Address
             // 
-            this.labelInfo5.AutoSize = true;
-            this.labelInfo5.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo5.Location = new System.Drawing.Point(6, 57);
-            this.labelInfo5.Name = "labelInfo5";
-            this.labelInfo5.Size = new System.Drawing.Size(63, 18);
-            this.labelInfo5.TabIndex = 23;
-            this.labelInfo5.Text = "Adresse:";
+            this.Lbl_Address.AutoSize = true;
+            this.Lbl_Address.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Address.Location = new System.Drawing.Point(6, 57);
+            this.Lbl_Address.Name = "Lbl_Address";
+            this.Lbl_Address.Size = new System.Drawing.Size(63, 18);
+            this.Lbl_Address.TabIndex = 23;
+            this.Lbl_Address.Text = "Adresse:";
             // 
-            // Rv_NomCli
+            // Tbx_Name
             // 
-            this.Rv_NomCli.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_NomCli.Location = new System.Drawing.Point(302, 13);
-            this.Rv_NomCli.Name = "Rv_NomCli";
-            this.Rv_NomCli.Size = new System.Drawing.Size(290, 25);
-            this.Rv_NomCli.TabIndex = 22;
+            this.Tbx_Name.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_Name.Location = new System.Drawing.Point(302, 13);
+            this.Tbx_Name.Name = "Tbx_Name";
+            this.Tbx_Name.Size = new System.Drawing.Size(290, 25);
+            this.Tbx_Name.TabIndex = 22;
             // 
-            // Rv_NoCli
+            // Tbx_idCli
             // 
-            this.Rv_NoCli.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rv_NoCli.Location = new System.Drawing.Point(122, 13);
-            this.Rv_NoCli.Name = "Rv_NoCli";
-            this.Rv_NoCli.Size = new System.Drawing.Size(96, 25);
-            this.Rv_NoCli.TabIndex = 21;
+            this.Tbx_idCli.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_idCli.Location = new System.Drawing.Point(122, 13);
+            this.Tbx_idCli.Name = "Tbx_idCli";
+            this.Tbx_idCli.Size = new System.Drawing.Size(96, 25);
+            this.Tbx_idCli.TabIndex = 21;
+            this.Tbx_idCli.DoubleClick += new System.EventHandler(this.tbx_idCli_DoubleClick);
             // 
-            // labelInfo4
+            // Lbl_Name
             // 
-            this.labelInfo4.AutoSize = true;
-            this.labelInfo4.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo4.Location = new System.Drawing.Point(224, 16);
-            this.labelInfo4.Name = "labelInfo4";
-            this.labelInfo4.Size = new System.Drawing.Size(44, 18);
-            this.labelInfo4.TabIndex = 20;
-            this.labelInfo4.Text = "Nom:";
+            this.Lbl_Name.AutoSize = true;
+            this.Lbl_Name.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Name.Location = new System.Drawing.Point(224, 16);
+            this.Lbl_Name.Name = "Lbl_Name";
+            this.Lbl_Name.Size = new System.Drawing.Size(44, 18);
+            this.Lbl_Name.TabIndex = 20;
+            this.Lbl_Name.Text = "Nom:";
             // 
-            // labelInfo3
+            // Lbl_idCli
             // 
-            this.labelInfo3.AutoSize = true;
-            this.labelInfo3.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelInfo3.Location = new System.Drawing.Point(6, 16);
-            this.labelInfo3.Name = "labelInfo3";
-            this.labelInfo3.Size = new System.Drawing.Size(74, 18);
-            this.labelInfo3.TabIndex = 19;
-            this.labelInfo3.Text = "No. Client:";
+            this.Lbl_idCli.AutoSize = true;
+            this.Lbl_idCli.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_idCli.Location = new System.Drawing.Point(6, 16);
+            this.Lbl_idCli.Name = "Lbl_idCli";
+            this.Lbl_idCli.Size = new System.Drawing.Size(74, 18);
+            this.Lbl_idCli.TabIndex = 19;
+            this.Lbl_idCli.Text = "No. Client:";
             // 
-            // labelTitle1
+            // Lbl_ClientDataTitle
             // 
-            this.labelTitle1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.Lbl_ClientDataTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelTitle1.AutoSize = true;
-            this.labelTitle1.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitle1.Location = new System.Drawing.Point(15, 16);
-            this.labelTitle1.Name = "labelTitle1";
-            this.labelTitle1.Size = new System.Drawing.Size(309, 23);
-            this.labelTitle1.TabIndex = 18;
-            this.labelTitle1.Text = "Information sur le client qui réserve";
-            this.labelTitle1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // TA_De
-            // 
-            this.TA_De.ClearBeforeFill = true;
-            // 
-            // dS_Reservation1
-            // 
-            this.dS_Reservation1.DataSetName = "DS_Reservation";
-            this.dS_Reservation1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.Lbl_ClientDataTitle.AutoSize = true;
+            this.Lbl_ClientDataTitle.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ClientDataTitle.Location = new System.Drawing.Point(15, 16);
+            this.Lbl_ClientDataTitle.Name = "Lbl_ClientDataTitle";
+            this.Lbl_ClientDataTitle.Size = new System.Drawing.Size(309, 23);
+            this.Lbl_ClientDataTitle.TabIndex = 18;
+            this.Lbl_ClientDataTitle.Text = "Information sur le client qui réserve";
+            this.Lbl_ClientDataTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // TA_Reservation
             // 
@@ -543,15 +561,23 @@
             // 
             this.TA_Client.ClearBeforeFill = true;
             // 
-            // Form1
+            // TA_De
+            // 
+            this.TA_De.ClearBeforeFill = true;
+            // 
+            // TA_Chambre
+            // 
+            this.TA_Chambre.ClearBeforeFill = true;
+            // 
+            // Form_BaseForm_Reservation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 662);
-            this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Controls.Add(this.Gbx_FormData);
+            this.Name = "Form_BaseForm_Reservation";
+            this.Text = "Réservation";
+            this.Load += new System.EventHandler(this.form_BaseFormReservation_Load);
             this.Controls.SetChildIndex(this.buttonChangeDiscard1, 0);
             this.Controls.SetChildIndex(this.buttonChangeRevert1, 0);
             this.Controls.SetChildIndex(this.buttonFileDelete1, 0);
@@ -568,18 +594,19 @@
             this.Controls.SetChildIndex(this.textBox1, 0);
             this.Controls.SetChildIndex(this.labelInfo1, 0);
             this.Controls.SetChildIndex(this.labelInfo2, 0);
-            this.Controls.SetChildIndex(this.groupBox1, 0);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DG_Reservation)).EndInit();
+            this.Controls.SetChildIndex(this.Gbx_FormData, 0);
+            this.Gbx_FormData.ResumeLayout(false);
+            this.Gbx_FormData.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv_Rooms)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BS_De)).EndInit();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DS_Reservation)).EndInit();
+            this.Gbx_BookingData.ResumeLayout(false);
+            this.Gbx_BookingData.PerformLayout();
+            this.Gbx_ClientData.ResumeLayout(false);
+            this.Gbx_ClientData.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BS_Reservation)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dS_Reservation1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BS_Client)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BS_Chambre)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -587,49 +614,57 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private Prj_Object.LabelTitle labelTitle2;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private Prj_Object.TextBox Rv_Tel;
-        private Prj_Object.LabelInfo labelInfo7;
-        private Prj_Object.TextBox Rv_TypCar;
-        private Prj_Object.LabelInfo labelInfo6;
-        private Prj_Object.TextBox Rv_Add;
-        private Prj_Object.LabelInfo labelInfo5;
-        private Prj_Object.TextBox Rv_NomCli;
-        private Prj_Object.TextBox Rv_NoCli;
-        private Prj_Object.LabelInfo labelInfo4;
-        private Prj_Object.LabelInfo labelInfo3;
-        private Prj_Object.LabelTitle labelTitle1;
-        private Prj_Object.TextBox Rv_SldDu;
-        private Prj_Object.LabelInfo labelInfo9;
-        private Prj_Object.TextBox Rv_Exp;
-        private Prj_Object.LabelInfo labelInfo8;
-        private Prj_Object.TextBox Rv_NoCar;
-        private Prj_Object.LabelInfo labelInfo11;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private Prj_Object.TextBox Rv_NoRes;
-        private Prj_Object.TextBox Rv_DatFin;
-        private Prj_Object.LabelInfo labelInfo10;
-        private Prj_Object.TextBox Rv_ResLe;
-        private Prj_Object.LabelInfo labelInfo14;
-        private Prj_Object.TextBox Rv_DatDeb;
-        private Prj_Object.LabelInfo labelInfo15;
-        private Prj_Object.LabelInfo labelInfo16;
-        private System.Windows.Forms.BindingSource BS_De;
+        private System.Windows.Forms.GroupBox Gbx_FormData;
+        private Prj_Object.LabelTitle Lbl_BookingData;
+        private System.Windows.Forms.GroupBox Gbx_ClientData;
+        private Prj_Object.TextBox Tbx_PhoneNb;
+        private Prj_Object.LabelInfo Lbl_PhoneNb;
+        private Prj_Object.TextBox Tbx_CardType;
+        private Prj_Object.LabelInfo Lbl_CardType;
+        private Prj_Object.TextBox Tbx_Address;
+        private Prj_Object.LabelInfo Lbl_Address;
+        private Prj_Object.TextBox Tbx_Name;
+        private Prj_Object.TextBox Tbx_idCli;
+        private Prj_Object.LabelInfo Lbl_Name;
+        private Prj_Object.LabelInfo Lbl_idCli;
+        private Prj_Object.LabelTitle Lbl_ClientDataTitle;
+        private Prj_Object.TextBox Tbx_BalanceDue;
+        private Prj_Object.LabelInfo Lbl_BalanceDue;
+        private Prj_Object.TextBox Tbx_CardExp;
+        private Prj_Object.LabelInfo Lbl_CardExp;
+        private Prj_Object.TextBox Tbx_CardNb;
+        private Prj_Object.LabelInfo Lbl_CardNb;
+        private System.Windows.Forms.GroupBox Gbx_BookingData;
+        private Prj_Object.TextBox Tbx_idBooking;
+        private Prj_Object.TextBox Tbx_BookingEndAt;
+        private Prj_Object.LabelInfo Lbl_BookingEndAt;
+        private Prj_Object.TextBox Tbx_BookingDoneAt;
+        private Prj_Object.LabelInfo Lbl_BookingDoneAt;
+        private Prj_Object.TextBox Tbx_BookingStartAt;
+        private Prj_Object.LabelInfo Lbl_BookingStartAt;
+        private Prj_Object.LabelInfo Lbl_idBooking;
         private System.Windows.Forms.BindingSource BS_Reservation;
-        private DS_ReservationTableAdapters.deTableAdapter TA_De;
-        private DS_Reservation dS_Reservation1;
+        private DS_Reservation DS_Reservation;
         private DS_ReservationTableAdapters.reservationTableAdapter TA_Reservation;
-        private System.Windows.Forms.DataGridView DG_Reservation;
-        private Prj_Object.TextBox Rv_ResPour;
-        private Prj_Object.LabelInfo labelInfo12;
+        private System.Windows.Forms.DataGridView Dgv_Rooms;
+        private Prj_Object.TextBox Tbx_ResPour;
+        private Prj_Object.LabelInfo Lbl_BookingFor;
         private DS_ReservationTableAdapters.clientTableAdapter TA_Client;
         private System.Windows.Forms.BindingSource BS_Client;
+        private DS_ReservationTableAdapters.deTableAdapter TA_De;
+        private DS_ReservationTableAdapters.chambreTableAdapter TA_Chambre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idReser;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.BindingSource BS_De;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idReserDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn noChamDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codTypChamDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn prixDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn attribueeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource BS_Chambre;
     }
 }
 
